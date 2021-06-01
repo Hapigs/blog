@@ -14,7 +14,7 @@ const Router = routerRedux.ConnectedRouter;
 
 const routes = [
   {
-    path: '/',
+    path: '/blog',
     component: __IS_BROWSER
       ? _dvaDynamic({
           component: () =>
@@ -23,7 +23,7 @@ const routes = [
       : require('../../layouts/index').default,
     routes: [
       {
-        path: '/',
+        path: '/blog',
         component: __IS_BROWSER
           ? _dvaDynamic({
               component: () =>
@@ -35,7 +35,7 @@ const routes = [
         _title_default: 'yublog',
       },
       {
-        path: '/archive',
+        path: '/blog/archive',
         component: __IS_BROWSER
           ? _dvaDynamic({
               component: () =>
@@ -47,7 +47,7 @@ const routes = [
         _title_default: 'yublog',
       },
       {
-        path: '/me',
+        path: '/blog/me',
         component: __IS_BROWSER
           ? _dvaDynamic({
               component: () => import(/* webpackChunkName: "p__me" */ '../me'),
@@ -58,7 +58,7 @@ const routes = [
         _title_default: 'yublog',
       },
       {
-        path: '/blog',
+        path: '/blog/blog',
         component: __IS_BROWSER
           ? _dvaDynamic({
               component: () =>

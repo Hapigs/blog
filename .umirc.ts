@@ -37,7 +37,7 @@ const config: IConfig =  {
       },
     }],
   ],
-  // base: '/blog/',
+  base: '/blog/',
   publicPath: '/blog/',
 }
 
