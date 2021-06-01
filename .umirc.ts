@@ -38,6 +38,7 @@ const config: IConfig =  {
     }],
   ],
   base: '/blog/',
+  publicPath: '/blog/',
 }
 
 export default config;
