@@ -5,10 +5,10 @@ const config: IConfig =  {
   treeShaking: true,
   routes: [
     {
-      path: '/',
+      path: '/blog',
       component: '../layouts/index',
       routes: [
-        { path: '/', component: '../pages/index' },
+        { path: '/blog', component: '../pages/index' },
         { path: './archive', component: '../pages/archive' },
         { path: './me', component: '../pages/me' },
         { path: './blog', component: '../pages/blog' },
@@ -37,6 +37,7 @@ const config: IConfig =  {
       },
     }],
   ],
+  base: '/blog/',
 }
 
 export default config;
