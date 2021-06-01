@@ -83,7 +83,7 @@ const routes = [
       {
         component: () =>
           React.createElement(
-            require('/Users/hapig/web/blog/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+            require('/Users/seven/Web/blog/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
               .default,
             { pagesPath: 'src/pages', hasRoutesInConfig: true },
           ),
@@ -97,7 +97,7 @@ const routes = [
   {
     component: () =>
       React.createElement(
-        require('/Users/hapig/web/blog/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
+        require('/Users/seven/Web/blog/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
           .default,
         { pagesPath: 'src/pages', hasRoutesInConfig: true },
       ),

@@ -47,5 +47,6 @@
   },
   "engines": {
     "node": ">=8.0.0"
-  }
+  },
+  "homepage": "https://Hapigs.github.io/github-actions-demo"
 }
