@@ -5,10 +5,10 @@ const config: IConfig =  {
   treeShaking: true,
   routes: [
     {
-      path: '/blog',
+      path: '/',
       component: '../layouts/index',
       routes: [
-        { path: '/blog', component: '../pages/index' },
+        { path: '/', component: '../pages/index' },
         { path: './archive', component: '../pages/archive' },
         { path: './me', component: '../pages/me' },
         { path: './blog', component: '../pages/blog' },
